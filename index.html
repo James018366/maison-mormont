@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Grand Registre de la Maison Mormont de l'Île-aux-Ours, an 183.">
+<title>Maison Mormont · Grand Registre</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<main class="wrap">
+
+  <section class="hero">
+    <svg class="big" viewBox="0 0 100 120"><use href="#crest"/></svg>
+    <div>
+      <div class="eyebrow">LE NORD · VASSAUX DE WINTERFELL · AN 183</div>
+      <h1>Maison Mormont</h1>
+      <div class="motto">Nous voici</div>
+      <div class="stats">
+        <div class="stat"><small>SEIGNEUR</small><b>Lord <span data-f="seigneur">James</span></b></div>
+        <div class="stat"><small>FRÈRE</small><b>Ser <span data-f="frere">Jorah</span></b></div>
+        <div class="stat"><small>ÉPÉE</small><b>Grand-Griffe</b></div>
+        <div class="stat"><small>SUZERAIN</small><b>Maison Stark</b></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="search">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+    <input id="q" type="search" placeholder="Rechercher dans le registre…" autocomplete="off">
+    <kbd>/</kbd>
+  </div>
+
+  <section class="sec">
+    <h2>La Maison <span>· SANG &amp; SERMENT</span></h2>
+    <div class="grid">
+      <a class="card key" href="candidature.html"><div class="tag">CND</div><div><b>Candidature</b><p>Le dossier officiel et sa version Markdown à copier.</p></div></a>
+      <a class="card" href="maison.html"><div class="tag">MSN</div><div><b>Histoire</b><p>Des rois Pied-de-Bois à l'an 183.</p></div></a>
+      <a class="card" href="membres.html"><div class="tag">FAM</div><div><b>Membres</b><p>Le Seigneur, son frère Jorah et les PNJ du fort.</p></div></a>
+      <a class="card" href="arbre.html"><div class="tag">ARB</div><div><b>Arbre généalogique</b><p>Trois générations et les places libres à prendre.</p></div></a>
+      <a class="card" href="objectifs.html"><div class="tag">OBJ</div><div><b>Objectifs</b><p>Court, moyen et long terme, Maison et personnages.</p></div></a>
+    </div>
+  </section>
+
+  <section class="sec">
+    <h2>Les Trésors <span>· ACIER &amp; RELIQUES</span></h2>
+    <div class="grid">
+      <a class="card steel" href="grand-griffe.html"><div class="tag">GRF</div><div><b>Grand-Griffe</b><p>L'épée bâtarde en acier valyrien, âme de la Maison.</p></div></a>
+      <a class="card" href="artefacts.html"><div class="tag">ART</div><div><b>Artéfacts</b><p>La Porte, le Barral, la Peau, le Cor, la Pierre et le Registre.</p></div></a>
+    </div>
+  </section>
+
+  <section class="sec">
+    <h2>Les Terres <span>· BAIE DES GLACES</span></h2>
+    <div class="grid">
+      <a class="card" href="ile.html"><div class="tag">ILE</div><div><b>L'Île-aux-Ours</b><p>Carte, lieux, ressources et population.</p></div></a>
+      <a class="card" href="fort.html"><div class="tag">FRT</div><div><b>Le Fort Mormont</b><p>Longue salle de rondins, donjon enfumé, palissade de terre.</p></div></a>
+      <a class="card" href="garnison.html"><div class="tag">GRN</div><div><b>Garnison</b><p>Les Ourses, la Garde de la Porte, la levée de l'île.</p></div></a>
+      <a class="card danger" href="cotes.html"><div class="tag">FER</div><div><b>Défense des côtes</b><p>Les quatre niveaux d'alerte des feux de guet.</p></div></a>
+    </div>
+  </section>
+
+  <section class="sec">
+    <h2>Le Royaume <span>· AN 183</span></h2>
+    <div class="grid">
+      <a class="card" href="contexte.html"><div class="tag">183</div><div><b>Contexte de l'an 183</b><p>Aegon IV, ses bâtards et Feu-Noir.</p></div></a>
+      <a class="card" href="diplomatie.html"><div class="tag">DPL</div><div><b>Diplomatie</b><p>Suzerains, familles, alliés et ennemis.</p></div></a>
+      <a class="card" href="chroniques.html"><div class="tag">CHR</div><div><b>Chroniques</b><p>La frise de la Maison et les scènes jouées.</p></div></a>
+      <a class="card" href="reglement.html"><div class="tag">LOI</div><div><b>Lois de l'île</b><p>Justice du seigneur et règles de jeu de la Maison.</p></div></a>
+    </div>
+  </section>
+
+  <div class="empty" id="empty">AUCUNE ENTRÉE DANS LE REGISTRE</div>
+</main>
+<script src="assets/app.js"></script>
+</body>
+</html>
