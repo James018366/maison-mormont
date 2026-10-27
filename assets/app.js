@@ -4,9 +4,9 @@
    ✏️  Modifie ces lignes pour mettre à jour tout le site d'un coup.
    ========================================================= */
 const MAISON = {
-  seigneur:       "James",       // prénom RP du Seigneur
+  seigneur:       "Alastor Mormont",       // prénom RP du Seigneur
   joueurSeigneur: "James",       // pseudo du joueur
-  frere:          "Jorah",
+  frere:          "Jorah Mormont",
   joueurFrere:    "Mortiphax",
   annee:          "183"
 };
